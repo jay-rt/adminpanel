@@ -10,7 +10,10 @@ import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="wrapper">
+      <div className="left">
+        <span className="logo">jayadmin</span>
+      </div>
+      <div className="right">
         <div className="search">
           <input type="text" placeholder="Search..." />
           <SearchOutlinedIcon />

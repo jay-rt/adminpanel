@@ -4,24 +4,6 @@
   min-height: 100vh;
   background-color: #fff;
 
-  .top {
-    display: flex;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-
-    .logo {
-      font-size: 20px;
-      font-weight: bold;
-      color: #6439ff;
-    }
-  }
-
-  hr {
-    height: 0;
-    border: 0.5px solid rgb(230, 227, 227);
-  }
-
   .center {
     padding-left: 10px;
 
@@ -61,7 +43,7 @@
     }
   }
 
-  .bottom {
+  .color {
     display: flex;
     align-items: center;
     margin: 10px;

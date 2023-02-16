@@ -15,10 +15,6 @@ import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="top">
-        <span className="logo">jayadmin</span>
-      </div>
-      <hr />
       <div className="center">
         <ul>
           <p className="title">MAIN</p>
@@ -76,7 +72,7 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className="bottom">
+      <div className="color">
         <div className="color-options"></div>
         <div className="color-options"></div>
       </div>

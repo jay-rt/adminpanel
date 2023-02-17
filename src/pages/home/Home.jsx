@@ -1,9 +1,7 @@
 import Featured from "../../components/charts/featured/Featured";
 import Chart from "../../components/charts/regular/Chart";
-import Navbar from "../../components/navbar/Navbar";
-import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
-import List from "../../components/table/Table";
+import List from "../../components/tables/basic/Table";
 import "./home.scss";
 
 const Home = () => {

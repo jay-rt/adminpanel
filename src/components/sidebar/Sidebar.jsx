@@ -1,4 +1,3 @@
-import "./sidebar.scss";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import StoreIcon from "@mui/icons-material/Store";
@@ -11,6 +10,7 @@ import PsychologyOutlinedIcon from "@mui/icons-material/PsychologyOutlined";
 import SettingsIcon from "@mui/icons-material/Settings";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
+import "./sidebar.scss";
 
 const Sidebar = () => {
   return (

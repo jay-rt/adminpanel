@@ -1,6 +1,6 @@
-import "./datatable.scss";
 import { DataGrid } from "@mui/x-data-grid";
-import { userRows, userColumns } from "../../../datatablesource";
+import { userRows, userColumns } from "../../../data-table-source";
+import "./datatable.scss";
 
 const actionColumn = [
   {

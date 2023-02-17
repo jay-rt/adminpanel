@@ -1,4 +1,3 @@
-import "./chart.scss";
 import {
   AreaChart,
   Area,
@@ -7,6 +6,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import "./chart.scss";
 
 const data = [
   { name: "January", Total: 1200 },

@@ -1,4 +1,31 @@
 .datatable {
+  padding: 20px;
+
+  .datatable-title {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      font-size: 24px;
+      font-weight: 500;
+      color: gray;
+    }
+
+    .link {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+      color: green;
+      padding: 5px;
+      border: 1px solid green;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
   .cell-with-img {
     display: flex;
     align-items: center;
@@ -35,6 +62,10 @@
     display: flex;
     align-items: center;
     gap: 15px;
+
+    .link {
+      text-decoration: none;
+    }
 
     .btn {
       padding: 2px 5px;

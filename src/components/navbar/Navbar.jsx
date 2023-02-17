@@ -6,12 +6,15 @@ import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNone
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 import "./navbar.scss";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="left">
-        <span className="logo">jayadmin</span>
+        <Link to="/" className="link">
+          <span className="logo">jayadmin</span>
+        </Link>
       </div>
       <div className="right">
         <div className="search">

@@ -16,7 +16,7 @@ export const userColumns = [
   { field: "email", headerName: "Email", width: 230 },
   { field: "age", headerName: "Age", width: 90 },
   {
-    filed: "status",
+    field: "status",
     headerName: "Status",
     width: 160,
     renderCell: (params) => {

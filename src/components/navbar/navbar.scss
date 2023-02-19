@@ -5,6 +5,10 @@
   align-items: center;
   font-size: 14px;
   color: #555;
+  background-color: #fff;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
 
   .left {
     display: flex;

@@ -8,10 +8,14 @@ import Login from "./pages/login/Login";
 import New from "./pages/new/New";
 import Single from "./pages/single/Single";
 import { productInputs, userInputs } from "./form-source";
+import { useSelector } from "react-redux";
+import { dark } from "./redux/themeSlice";
+import { useEffect } from "react";
 
 const App = () => {
+  const darkMode = useSelector(dark);
   return (
-    <>
+    <div className={darkMode ? "app dark" : "app"}>
       <BrowserRouter>
         <Navbar />
         <div className="main-container">
@@ -42,7 +46,7 @@ const App = () => {
           </main>
         </div>
       </BrowserRouter>
-    </>
+    </div>
   );
 };
 

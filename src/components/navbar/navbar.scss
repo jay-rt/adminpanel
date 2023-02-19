@@ -58,6 +58,11 @@
         align-items: center;
         margin-right: 20px;
         position: relative;
+        cursor: pointer;
+
+        &:hover {
+          color: #111;
+        }
 
         .icon {
           font-size: 20px;

@@ -12,8 +12,18 @@ import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined
 import ExitToAppIcon from "@mui/icons-material/ExitToApp";
 import "./sidebar.scss";
 import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { darkTheme, lightTheme } from "../../redux/themeSlice";
 
 const Sidebar = () => {
+  const dispatch = useDispatch();
+  const handleClick = (themeMode) => {
+    if (themeMode === "light") {
+      dispatch(lightTheme());
+    } else {
+      dispatch(darkTheme());
+    }
+  };
   return (
     <div className="sidebar">
       <div className="center">
@@ -78,8 +88,14 @@ const Sidebar = () => {
         </ul>
       </div>
       <div className="color">
-        <div className="color-options"></div>
-        <div className="color-options"></div>
+        <div
+          className="color-options"
+          onClick={() => handleClick("light")}
+        ></div>
+        <div
+          className="color-options"
+          onClick={() => handleClick("dark")}
+        ></div>
       </div>
     </div>
   );

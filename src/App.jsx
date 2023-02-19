@@ -10,7 +10,6 @@ import Single from "./pages/single/Single";
 import { productInputs, userInputs } from "./form-source";
 import { useSelector } from "react-redux";
 import { dark } from "./redux/themeSlice";
-import { useEffect } from "react";
 
 const App = () => {
   const darkMode = useSelector(dark);

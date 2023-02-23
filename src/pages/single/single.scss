@@ -7,8 +7,8 @@
     .left {
       flex: 1;
       padding: 20px;
-      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      -webkit-box-shadow: var(--box-shadow);
+      box-shadow: var(--box-shadow);
       position: relative;
       border-radius: 5px;
 
@@ -18,8 +18,8 @@
         right: 0;
         padding: 5px;
         font-size: 12px;
-        color: #7451f8;
-        background-color: #7551f818;
+        color: var(--accent-color-alternate);
+        background-color: var(--accent-color-light);
         border-radius: 0 5px;
         cursor: pointer;
       }
@@ -38,7 +38,7 @@
         .details {
           .item-title {
             margin-bottom: 10px;
-            color: #555;
+            color: var(--text-color);
           }
 
           .item-detail {
@@ -47,7 +47,7 @@
 
             .item-key {
               font-weight: bold;
-              color: gray;
+              color: var(--title-color);
               margin-right: 5px;
             }
 
@@ -66,14 +66,14 @@
 
   .bottom {
     padding: 20px;
-    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    -webkit-box-shadow: var(--box-shadow);
+    box-shadow: var(--box-shadow);
     margin: 10px 20px;
   }
 
   .title {
     font-size: 16px;
-    color: lightgray;
+    color: var(--title-color);
     margin-bottom: 20px;
   }
 }

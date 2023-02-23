@@ -17,12 +17,12 @@
     border-radius: 5px;
 
     &.approved {
-      background-color: rgba(0, 128, 0, 0.15);
+      background-color: rgba(0, 128, 0, 0.2);
       color: green;
     }
 
     &.pending {
-      background-color: rgba(218, 165, 32, 0.15);
+      background-color: rgba(218, 165, 32, 0.2);
       color: goldenrod;
     }
   }

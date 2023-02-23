@@ -11,7 +11,7 @@
     h1 {
       font-size: 24px;
       font-weight: 500;
-      color: gray;
+      color: var(--title-color);
     }
 
     .link {
@@ -44,17 +44,17 @@
 
     &.active {
       color: green;
-      background-color: rgba(0, 128, 0, 0.05);
+      background-color: rgba(0, 128, 0, 0.15);
     }
 
     &.passive {
       color: crimson;
-      background-color: rgba(220, 20, 60, 0.05);
+      background-color: rgba(220, 20, 60, 0.15);
     }
 
     &.pending {
       color: goldenrod;
-      background-color: rgba(218, 165, 32, 0.05);
+      background-color: rgba(218, 165, 32, 0.15);
     }
   }
 
@@ -74,10 +74,12 @@
 
       &.btn-view {
         border: 1px dotted rgba(0, 0, 139, 0.5);
+        color: darkblue
       }
 
       &.btn-delete {
-        border: 1px dotted rgba(220, 20, 60, 0.6);
+        border: 1px dotted rgba(220, 20, 60, 0.5);
+        color: crimson;
       }
     }
   }
